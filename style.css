@@ -1,0 +1,45 @@
+
+.container{
+ border: 2px solid black;
+ margin: 20px;grid-auto-flow: unset;
+width: 400px;grid-auto-flow: unset;
+height: 400px;grid-auto-flow: unset;
+transform: 
+ translateX(-4%)translateY(25%);
+ background-color: cyan;
+ border-radius: 10px;
+}
+td {
+	
+    width: 19px; grid-auto-flow: unset;
+    height: 17px;grid-auto-flow: unset;
+}
+.hj{
+    width: 95px;
+    grid-auto-flow: unset;
+    height: 51px;
+	cursor: pointer;
+	font-family: 'Tahoma';
+	font-size: 20px;
+	border-radius: 30px;
+}
+#result{
+	height:50px;
+	width:340px;
+	margin-left: 20px;
+	margin-top: 10px;
+	border: 2px solid black;
+	font-size: 30px;
+	
+}
+.fg{
+	width: 95px;
+    grid-auto-flow: unset;
+    height: 51px;
+	cursor: pointer;
+	font-family: 'Tahoma';
+	font-size: 20px;
+	border-radius: 30px;
+	background-color: red;
+}
+

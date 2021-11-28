@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .hj:hover{
+            background-color: rgb(96, 96, 107);
+        }
+        .fg:hover{
+            background-color: rgb(96, 96, 107);
+        }
+
+    </style>
+  
+</head>
+
+<body>
+   <div class="container">
+      <form action="">
+          <input type="textview"  placeholder="Result" id="result">
+      </form><br>
+           <table>
+            
+             
+                       <tr> 
+                        <td><input type="button" class="fg" value="C" onclick="clearBox()"></td>
+                        <td><input type="button" class="hj"  value="del" onclick="backSpace()"></td>
+                        <td><input type="button" class="hj"  value="+" onclick="displayValues('+')"></td>
+                         <td><input type="button" class="hj" value="/" onclick="displayValues('/')" ></td>
+                       </tr>
+                       <tr>
+                        <td><input type="button" class="hj" value="7" onclick="displayValues('7')"></td>
+                        <td><input type="button" class="hj" value="8" onclick="displayValues('8')"></td>
+                        <td><input type="button" class="hj" value="9" onclick="displayValues('9')"></td>
+                        <td><input type="button" class="hj" value="*" onclick="displayValues('*')"></td>
+                       </tr>
+                       <tr>
+                        <td><input type="button" class="hj" value="4" onclick="displayValues('4')"></td>
+                        <td><input type="button" class="hj" value="5" onclick="displayValues('5')"></td>
+                        <td><input type="button" class="hj" value="6" onclick="displayValues('6')"></td>
+                        <td><input type="button" class="hj" value="-" onclick="displayValues('-')"></td>
+                       </tr>
+                       <tr>
+                        <td><input type="button" class="hj" value="1" onclick="displayValues('1')"></td>
+                        <td><input type="button" class="hj" value="2" onclick="displayValues('2')"></td>
+                        <td><input type="button" class="hj" value="3" onclick="displayValues('3')"></td>
+                        <td><input type="button" class="hj" value="0" onclick="displayValues('0')"></td>
+                       </tr>
+
+                       <tr>
+                        <td><input type="button" class="hj" value="(" onclick="displayValues('(')"></td>
+                        <td><input type="button" class="hj" value=")" onclick="displayValues(')')"></td>
+                        <td><input type="button" class="hj" value="." onclick="displayValues('.')"></td>
+                        <td><input type="button" class="hj" value="=" onclick=" evalauateExpression()"></td>
+
+                           
+
+                       </tr>
+              
+              
+         
+           </table>
+      
+   </div> 
+</body>
+<script src="./script.js"></script>
+</html>
